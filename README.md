@@ -12,11 +12,11 @@ A bee hive will have : location/ address, status (active/inactive), reason for d
 
 To do:
 1. Make the application runnable. (2%)
-2. Add the Identity middleware (2%)
-2. Create the entities for User, Organization, Beehive (2%)
-3. Create the specific repos for the entities (2%)
+2. Add the Identity middleware (2%) yea...
+2. Create the entities for User, Organization, Beehive (2%) yes 
+3. Create the specific repos for the entities (2%) yes
 4. Seed some data with an Admin user that is part of an initial <br/> 
    0000-0000-0000-0000 Organization and a Default and Admin roles available. (3%)
 5. Change the Registration page to add an Organization and the Default role to user (3%)
-6. Create a repo method to get all the Users for an Organization (3%)
-7. Create a repo method to get all the Beehives for an Organization (3%)
+6. Create a repo method to get all the Users for an Organization (3%) yes
+7. Create a repo method to get all the Beehives for an Organization (3%) yes
