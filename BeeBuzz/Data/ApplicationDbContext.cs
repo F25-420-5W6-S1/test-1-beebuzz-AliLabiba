@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.SqlServer.Management.Smo.Wmi;
 
 namespace BeeBuzz.Data
 {
@@ -16,5 +17,6 @@ namespace BeeBuzz.Data
         {
             base.OnModelCreating(modelBuilder);
         }
+        public DbSet<Beehive> Beehives { get; set; }
     }
 }

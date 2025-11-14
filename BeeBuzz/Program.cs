@@ -2,6 +2,7 @@ using BeeBuzz.Data.Entities;
 using BeeBuzz.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using BeeBuzz.Data.Repositories.Helpers;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,7 +25,11 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole<int>>(options =>
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
 
+builder.Services.AddTransient<BeeBuzzSeeder>();
+builder.Services.AddScoped<IRepositoryProvider, RepositoryProvider>();
+
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

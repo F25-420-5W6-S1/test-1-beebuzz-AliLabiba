@@ -20,6 +20,7 @@
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
       <PackageReference Include="Microsoft.SqlServer.Server" Version="1.0.0" />
+      <PackageReference Include="Microsoft.SqlServer.SqlManagementObjects" Version="180.10.0" />
     </ItemGroup>
 
 </Project>

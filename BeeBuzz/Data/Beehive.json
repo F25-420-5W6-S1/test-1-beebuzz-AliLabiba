@@ -1,0 +1,16 @@
+[
+  {
+    "Id": 1,
+    "Location": "JAC",
+    "status": "active",
+    "reasoneOfDeactivation": null,
+    "OrganizationId": "0000-0000-0000-0000"
+  },
+  {
+    "Id": 2,
+    "Location": "McDonald",
+    "status": "active",
+    "reasoneOfDeactivation": null,
+    "OrganizationId": "0000-0000-0000-0001"
+  }
+]
